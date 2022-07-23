@@ -16,7 +16,7 @@
     height:80px;
     width:100%;
     background-color: #146C70;
-    padding: 0 15px;
+    padding: 10px 15px;
 }
 
 
@@ -47,6 +47,32 @@
     font-size:18px;
     text-decoration: none;
     color: #fff;
+}
+
+.description__container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;;
+    font-family: 'Ubuntu', sans-serif;
+    height: 100%;
+    padding: 30px 20px;
+    color: #fff;
+    background-color: #146C70;
+
+}
+
+.heading-1{
+    margin-right:20%;
+    width:80%;
+    font-size:30px;
+}
+
+.description-para{
+    font-size:15px;
+    line-height:25px;
+    font-weight:300;
 }
 
 
