@@ -1,6 +1,6 @@
-# MOI DROUG
+# UCHIMSA
 
-> This is a complete version of the MOI DROUG website.
+> This is a complete version of the UCHIMSA website.
 
 My goal here is to Build a Personal Professional Portfolio site from scratch, take a look at what i'v built [Live Demo](). 🙂
 
