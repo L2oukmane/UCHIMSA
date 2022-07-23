@@ -1,0 +1,44 @@
+{
+  "name": "Moi-Droug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "dependencies": {
+    "@hint/connector-local": "^3.2.22",
+    "@hint/formatter-stylish": "^3.1.31",
+    "@hint/hint-button-type": "^3.0.17",
+    "@hint/hint-disown-opener": "^4.0.17",
+    "@hint/hint-html-checker": "^3.3.21",
+    "@hint/hint-meta-charset-utf-8": "^4.0.17",
+    "@hint/hint-meta-viewport": "^5.0.17",
+    "@hint/hint-no-inline-styles": "^1.0.13",
+    "@hint/parser-babel-config": "^2.1.37",
+    "@hint/parser-css": "^3.0.34",
+    "@hint/parser-html": "^3.1.0",
+    "@hint/parser-javascript": "^3.1.20",
+    "@hint/parser-jsx": "^1.1.1",
+    "@hint/parser-less": "^1.0.26",
+    "@hint/parser-manifest": "^2.3.14",
+    "@hint/parser-sass": "^1.0.26",
+    "@hint/parser-typescript": "^1.0.21",
+    "@hint/parser-typescript-config": "^2.4.24",
+    "@hint/parser-webpack-config": "^2.1.36"
+  },
+  "devDependencies": {
+    "hint": "^7.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/L2oukmane/Moi-Droug.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/L2oukmane/Moi-Droug/issues"
+  },
+  "homepage": "https://github.com/L2oukmane/Moi-Droug#readme"
+}
