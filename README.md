@@ -2,7 +2,7 @@
 
 > This is a complete version of the UCHIMSA website.
 
-My goal here is to Build a Personal Professional Portfolio site from scratch, take a look at what i'v built [Live Demo](). 🙂
+My goal here is to Build a Personal Professional Portfolio site from scratch, take a look at what i'v built [Live Demo](https://l2oukmane.github.io/UCHIMSA/). 🙂
 
 ## Built With
 
