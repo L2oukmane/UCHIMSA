@@ -236,9 +236,10 @@ video {
 }
 
 .step .service-heading {
+  position: absolute;
   text-align: center;
   line-height: 30px;
-  border: 5px solid #58c7cc;
+  color:#fff;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 300;
   padding: 20px;
@@ -263,6 +264,8 @@ video {
 
 .title-bold {
   font-weight: bold;
+  font-size:22px;
+  color: #58c7cc;
 }
 
 .written-testi {
@@ -369,12 +372,14 @@ iframe {
   display:flex;
   flex-direction: column;
   align-items: center;
+  border-top:3px solid #12b5f6;
 }
 
 hr{
   width:95%;
   color: #e27f23;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .first-row{
@@ -392,6 +397,7 @@ hr{
   font-family: 'Nunito Sans', sans-serif;
   font-size:15px;
   font-weight:bold;
+  padding-right: 15px;
 }
 
 .copyrights > p{
@@ -399,4 +405,9 @@ hr{
   color: #000;
   font-size:15px;
   font-weight:400;
+}
+
+.step-image > img{
+  width:100%;
+  filter: blur(4px);
 }
