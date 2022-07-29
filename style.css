@@ -174,6 +174,7 @@
   text-align: left;
   padding-left: 20px;
   align-items: center;
+  width: 80%;
 }
 
 .step {
@@ -214,6 +215,7 @@
   align-items: center;
   justify-content: center;
   padding-top: 170px;
+  padding-bottom:50px;
   background-color: #e6f6f7;
 }
 
@@ -236,7 +238,7 @@ video {
 .step .service-heading{
   text-align: center;
   line-height:30px;
-  border:3px solid #58c7cc;
+  border:5px solid #58c7cc;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 300;
   padding:20px;
@@ -301,3 +303,8 @@ video {
   transform: rotate(90deg);
 }
 
+.step p{
+  color:#58c7cc;
+  font-weight: bold;
+  font-size:20px;
+}
