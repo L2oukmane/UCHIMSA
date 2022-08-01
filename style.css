@@ -143,6 +143,12 @@
   font-size: 30px;
 }
 
+.banner-3{
+  align-items: center;
+ align-self: center;
+  padding-right:auto;
+}
+
 .uchimsa-team {
   display: flex;
   flex-direction: column;
