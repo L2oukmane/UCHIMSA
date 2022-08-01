@@ -12,9 +12,15 @@
   <!--===== HEADER =====-->
   <header class="header">
 		<nav class="navbar__container">
-			<a href="#"><img src="./imgs/uchimsaLogo.svg" alt="LOGO"></a>
-			<ul class="navbar__items mobile__menu">
-				<li class="navbar__item"> <a href="#location"> Location</a> </li>
+			<a href="#" id="logo" ><img class="logo-img" src="./imgs/uchimsaLogo.svg" alt="LOGO"></a>
+			<ul class="navbar__items">
+				<li class="navbar__item desktop__item"> <a href="#location">Location</a> </li>
+				<li class="navbar__item desktop__item"> <a href="#location">About</a> </li>
+				<li class="navbar__item desktop__item"> <a href="#testimonials">Testiomonials</a> </li>
+				<li class="navbar__item desktop__item"> <a href="#contact">Contact</a> </li>
+			</ul>
+			<ul class="mobile__menu">
+				<li class="navbar__item"> <a href="#location">Location</a> </li>
 				<li class="navbar__item"> <a href="#location">About</a> </li>
 				<li class="navbar__item"> <a href="#testimonials">Testiomonials</a> </li>
 				<li class="navbar__item"> <a href="#contact">Contact</a> </li>
@@ -23,16 +29,17 @@
 			<a href="#" class="close__btn"><img src="./imgs/close.png" alt="Menu-btn"></a>
 		</nav>
   </header>
-
+<!--===== BODY =====-->
 	<section class="Description">
 		<div class="description__container">
 			<h1 class="heading-1">Group of Cross-cultural learning and studying abroad</h1>
-			<p class="description-para">We provide the most satisfactory services for students wishing to travel and study abroad in the most ranked universities in Russia to experience a strong scientific base and a high level of training.</p>
+			<p class="description-para">We provide the most satisfactory services for students wishing to travel and study abroad in the most ranked universities in <span class="russia">Russia</span>  to experience a strong scientific base and a high level of training.</p>
 			<a href="https://docs.google.com/forms/d/e/1FAIpQLSdlPSPV712ffpLFSusfb2CElwAFRJYebi_1DHdr9Dsj2ydESg/viewform?usp=sf_link"><button type="button" class="contact-btn">Learn More</button></a>
 		</div>
 		<img class="study-banner" src="./imgs/Russian-Scholarships.png" alt="Study Banner">
 	</section>
 	<section class="statistics">
+		<div class="stat-container">
 		<div class="stat">
 			<h3 class="stat-number">700+</h3>
 			<p class="stat-title">Universities</p>
@@ -45,52 +52,61 @@
 			<h3 class="stat-number">50+</h3>
 			<p class="stat-title">Field of Study</p>
 		</div>
+	</div>
+	<div class="stat-container2">
 		<div class="uchimsa-team">
 			<h3>UCHIMSA Team</h3>
-			<p> will help you navigate the whole variety of vocational training</p>
+			<p> will help you navigate the whole variety of vocational training, guide you prepare your document package and apply for the most ranked universities in <span class="russia">Russia.</span></p>
 			
 		<a href="https://docs.google.com/forms/d/e/1FAIpQLSdlPSPV712ffpLFSusfb2CElwAFRJYebi_1DHdr9Dsj2ydESg/viewform?usp=sf_link"><button type="button" class="register-btn">Register Now</button></a>
 		</div>
 		<div class="banner-3">
 		<img class="banner3img" src="./imgs/visa.svg" alt="">
 		</div>
+	</div>
 	</section>
 	<section class="steps">
-		<h3 class="steps-heading"><span class="number-5">5</span> Steps to Applying to a Russian University</h3>
+		<h3 class="steps-heading"><span class="russia">5</span> Steps to Applying to a <span class="russia">Russian</span> University</h3>
+		<div id="steps-container">	
 		<div class="step">
 			<p>Step</p>
 			<i class="Large material-icons">filter_1</i>
 			<img class="step-img" src="./imgs/steps1.jpg" alt="step1 image">
 			<a href="#">Choose Programme & University</a>
+			<img class="arrow-img" src="./imgs/down.png" alt="">
 		</div>
-		<img src="./imgs/down.png" alt="">
+		
 		<div class="step">
 			<p>Step</p>
 			<i class="Large material-icons">filter_2</i>
 			<img class="step-img" src="./imgs/steps2.jpg" alt="step1 image">
 			<a href="#">Learn about Financing</a>
+			<img class="arrow-img" src="./imgs/down.png" alt="">
 		</div>
-		<img src="./imgs/down.png" alt="">
+		
 		<div class="step">
 			<p>Step</p>
 			<i class="Large material-icons">filter_3</i>
 			<img class="step-img" src="./imgs/steps3.jpg" alt="step1 image">
 			<a href="#">We guide you Prepare your Document Package</a>
+			<img class="arrow-img" src="./imgs/down.png" alt="">
 		</div>
-		<img src="./imgs/down.png" alt="">
+		
 		<div class="step">
 			<p>Step</p>
 			<i class="Large material-icons">filter_4</i>
 			<img class="step-img" src="./imgs/steps4.jpg" alt="step1 image">
 			<a href="#">Get an Invitation and Apply for a Student Visa</a>
+			<img class="arrow-img" src="./imgs/down.png" alt="">
 		</div>
-		<img src="./imgs/down.png" alt="">
+		
 		<div class="step">
 			<p>Step</p>
 			<i class="Large material-icons">filter_5</i>
 			<img class="step-img" src="./imgs/steps5.jpg" alt="step1 image">
 			<a href="#">After your arrival to Russia We will take charge of all admission application.</a>
 		</div>
+	</div>
 		<div class="step step-image">
 			<img src="./imgs/spb555.jpg" alt="SPB image">
 			<h3 class="service-heading"> <span class="title-bold">UCHIMSA</span> team will keep in touch with students throughout their journey by providing additional services.</h3>
@@ -99,6 +115,8 @@
 	</section>
 	<section class="testimonials" id="testimonials">
 		<h3 class="testi-heading">This is What Students Said!</h3>
+		<div class="testi-container">
+		<div class="videos">
 		<p class="testi-text1">International students testimonials</p>
 		<video width="320" height="240" controls>
 			<source src="./imgs/video.mp4" type="video/mp4">
@@ -118,7 +136,8 @@
 			<source src="videoChina2.ogg" type="video/ogg">
 		Your browser does not support the video tag.
 		</video> 
-
+</div>
+		<div class="written">
 		<div class="written-testi">
 			<img class="quote-image" src="./imgs/quote.svg" alt="quotes">
 			<p class="written1">Yahya Elghandour (Egypt):</p>
@@ -135,6 +154,8 @@
 			<p class="written1">Nguyen Thai Hiep (Vietnam):</p>
 			<p class="written2"> " I completed my higher education at Ton Duc Thang University in Vietnam, after which, in order to pursue a career in teaching and science, I enrolled in a postgraduate programme at SPbGASU. I chose St. Petersburg because it is a very beautiful city, and I liked SPbGASU because of its high level of education. There are so many qualified professors and students from different countries here, that’s so great!."</p>
 		</div>
+	</div>
+</div>
 	</section>
 	<section class="about" id="location">
 		<div class="about-container">
@@ -147,6 +168,7 @@
 				<a href="https://docs.google.com/forms/d/e/1FAIpQLSdlPSPV712ffpLFSusfb2CElwAFRJYebi_1DHdr9Dsj2ydESg/viewform?usp=sf_link"><button type="button" class="register-btn">Register Now</button></a>
 		</div>
 	</section>
+	<!--===== FOOTER =====-->
 	<section class="contact" id="contact">
 		<div class="contact-container">
 			<div class="first-row">
