@@ -408,15 +408,13 @@ iframe {
 }
 
 .contact-container{
-  background-color: #146c70;
-  padding: 30px 15px;
-}
-
-.contact-container{
   display:flex;
   flex-direction: column;
   align-items: center;
   border-top:3px solid #12b5f6;
+  background-color: #146c70;
+  padding: 20px 15px;
+  width: 100%;
 }
 
 hr{
@@ -432,14 +430,14 @@ hr{
 }
 
 .logo2{
-  margin-right:100px;
+  margin-right:70px;
 }
 
 .contacts-link{
   text-decoration: none;
   color: #fff;
   font-family: 'Nunito Sans', sans-serif;
-  font-size:15px;
+  font-size:10px;
   font-weight:bold;
   padding-right: 15px;
 }
@@ -459,6 +457,10 @@ hr{
 .russia{
   font-weight: bold;
   color:#12b5f6;
+}
+
+.wechat-img > img{
+width: 10%;
 }
 
 @media screen and (min-width: 769px) {
@@ -718,7 +720,7 @@ hr{
   }
 
   .contacts-link{
-    font-size:25px;
+    font-size:20px;
   }
 
   .contacts-link:hover{
@@ -726,7 +728,12 @@ hr{
   }
 
   .copyrights p{
-    font-size:25px;
+    font-size:23px;
+    line-height: 30px;
+  }
+
+  .wechat-img{
+    margin-left: 50px;;
   }
 
 
