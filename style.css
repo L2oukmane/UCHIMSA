@@ -52,6 +52,18 @@
   color: #fff;
 }
 
+.english{
+  width:25%;
+}
+
+.arabic{
+  width:25%;
+}
+
+.languages{
+padding-left: 120px;
+}
+
 .Description {
   margin: 0;
   padding: 0;
@@ -736,5 +748,15 @@ width: 10%;
     margin-left: 50px;;
   }
 
+  .english{
+    width:13%;
+    margin: 15px;
+  }
+
+    
+  .arabic{
+    width:14%;
+    margin: 15px;
+  }
 
 }

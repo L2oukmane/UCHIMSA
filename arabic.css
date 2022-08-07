@@ -1,0 +1,788 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+/* Mobile Version */
+
+.navbar__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+  background-color: #146c70;
+  padding: 10px 15px;
+}
+
+.mobile__menu {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  gap: 85px;
+  background-color: #58c7cc;
+}
+
+.navbar__items{
+  display: none;
+}
+
+.close__btn {
+  display: none;
+  padding: 0 20px;
+  filter: invert(1);
+}
+
+.navbar__item a {
+  font-family: 'Droid Arabic Kufi', serif;
+  font-weight: bold;
+  align-items: center;
+  text-align: center;
+  font-size: 18px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.english{
+  width:25%;
+}
+
+.arabic{
+  width:25%;
+}
+
+.languages{
+padding-left: 120px;
+}
+
+.Description {
+  margin: 0;
+  padding: 0;
+  background-color: #58c7cc;
+  border-radius: 45px;
+}
+
+.description__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-family: 'Droid Arabic Kufi', serif;
+  height: 100%;
+  padding: 30px 20px;
+  color: #fff;
+  background-color: #146c70;
+}
+
+.heading-1 {
+  font-family: 'Droid Arabic Kufi', serif;
+  text-align: right;
+  margin-right: 20%;
+  width: 80%;
+  font-size: 30px;
+}
+
+.description-para {
+  text-align: center;
+  font-size: 15px;
+  line-height: 25px;
+  font-weight: 300;
+}
+
+.contact-btn {
+  background-color: #e27f23;
+  padding: 15px 100px;
+  color: #ffff;
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.stat-title{
+  font-family: 'Droid Arabic Kufi', serif;
+}
+
+.study-banner {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 35px;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+}
+
+.statistics {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e6f6f7;
+  padding-top: 90px;
+  padding-bottom: 40px;
+  height: 100%;
+  gap: 120px;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
+}
+
+.stat-container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap:7rem;
+}
+
+.stat-container2{
+  display:flex;
+  flex-direction: column;
+  gap:7rem;
+}
+
+.stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-family: 'Ubuntu',sans-serif ;
+  color: #146c70;
+}
+
+.stat-number {
+  font-size: 30px;
+}
+
+.banner-3{
+  align-items: center;
+ align-self: center;
+  padding-right:auto;
+}
+
+.uchimsa-team {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.uchimsa-team h3 {
+  font-size: 25px;
+  text-align: right;
+  color: #27292e;
+  font-family: 'Droid Arabic Kufi', serif;
+  border-bottom: 4px solid #12b5f6;
+  border-radius:25px;
+}
+
+.uchimsa-team p {
+ font-family: 'Droid Arabic Kufi', serif;
+  text-align: center;
+  font-size: 15px;
+  width: 80%;
+  color: #585c65;
+  text-align: right;
+}
+
+.register-btn {
+  padding: 15px 77px;
+  background-color: #e27f23;
+  border: none;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.steps {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  background-color: #e6f6f7;
+  gap: 100px;
+}
+
+#steps-container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  gap:5px;
+}
+
+.steps-heading {
+  font-family: 'Droid Arabic Kufi', serif;
+  font-weight: 500;
+  font-size: 25px;
+  text-align: left;
+  padding-left: 20px;
+  align-items: center;
+  width: 80%;
+}
+
+.step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  gap: 22px;
+  margin-bottom:10rem;
+  font-family: 'Droid Arabic Kufi', serif;
+}
+
+.step > a {
+  text-decoration: none;
+  text-align: center;
+  align-items: center;
+  color: #585c65;
+  font-size: 16px;
+}
+
+.material-icons {
+  color: #58c7cc;
+  font-size: 8rem;
+}
+
+.step-img {
+  border: 2px solid #58c7cc;
+  border-radius: 10px;
+}
+
+.testimonials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 170px;
+  padding-bottom: 50px;
+  background-color: #e6f6f7;
+}
+
+.videos{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.written{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testi-heading {
+  font-family: 'Droid Arabic Kufi', serif;
+  color: #27292e;
+  font-size: 22px;
+  font-weight: 600;
+  border-bottom: 2px solid #58c7cc;
+  border-radius: 16px;
+}
+
+video {
+  margin-top: 10px;
+  background-color: #fff;
+  border: 10px solid #fff;
+  border-radius: 16px;
+}
+
+.step .service-heading {
+  position: absolute;
+  text-align: center;
+  line-height: 40px;
+  color:#fff;
+  font-family: 'Droid Arabic Kufi', serif;
+  font-weight: 300;
+  padding: 20px;
+  padding-top: 40px;
+  border-radius: 36px;
+  z-index: 10;
+}
+
+.testi-text1 {
+ font-family: 'Droid Arabic Kufi', serif;
+  color: #27292e;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 600;
+  margin-top: 50px;
+}
+
+.testi-text2 {
+ font-family: 'Droid Arabic Kufi', serif;
+  color: #27292e;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 50px;
+  font-style: italic;
+}
+
+.title-bold {
+  font-weight: bold;
+  font-size:22px;
+  color: #58c7cc;
+  z-index: 10;
+  
+}
+
+.written-testi {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  border: 1px solid #fff;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  margin-top: 90px;
+}
+
+.quote-image {
+  width: 16%;
+  z-index: 5;
+  margin-top: -50px;
+}
+
+.written1 {
+  margin-top: 25px;
+  font-family: 'Droid Arabic Kufi', serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #27292e;
+  text-align: right;
+}
+
+.written2 {
+  margin-top: 25px;
+ font-family: 'Droid Arabic Kufi', serif;
+  font-size: 15px;
+  font-style: italic;
+  color: #27292e;
+  text-align: right;
+}
+
+.arrow {
+  transform: rotate(90deg);
+}
+
+.step p {
+  color: #58c7cc;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e6f6f7;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px;
+  width: 90%;
+  background-color: #146c70;
+  border-left: 7px solid #58c7cc;
+  border-right: 7px solid #58c7cc;
+  border-radius: 20px;
+}
+
+iframe {
+  width: 100%;
+  border-radius: 40px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.About-heading {
+  font-family: 'Droid Arabic Kufi', serif;
+  font-size: 23px;
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.about-text {
+  font-family: 'Droid Arabic Kufi', serif;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 300;
+  line-height: 30px;
+  text-align: right;
+}
+
+.about-span {
+  font-style: italic;
+  color: #12b5f6;
+  font-weight: bold;
+}
+
+.contact{
+  background-color: #e6f6f7;
+  padding-top:80px;
+}
+
+.contact-container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  border-top:3px solid #12b5f6;
+  background-color: #146c70;
+  padding: 20px 15px;
+  width: 100%;
+}
+
+hr{
+  width:95%;
+  color: #e27f23;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.first-row{
+  display:flex;
+  align-items: center;
+}
+
+.logo2{
+  margin-right:70px;
+}
+
+.contacts-link{
+  text-decoration: none;
+  color: #fff;
+ font-family: 'Ubuntu', sans-serif;
+  font-size:10px;
+  font-weight:bold;
+  padding-right: 15px;
+}
+
+.copyrights > p{
+  font-family: 'Ubuntu', sans-serif;
+  color: #000;
+  font-size:15px;
+  font-weight:400;
+}
+
+.step-image > img{
+  width:100%;
+  filter: blur(4px);
+}
+
+.russia{
+  font-weight: bold;
+  color:#12b5f6;
+}
+
+.wechat-img > img{
+width: 10%;
+}
+
+@media screen and (min-width: 769px) {
+   .menu__btn{
+    display:none;
+  }
+
+  .navbar__container{
+    padding: 3.5rem  80px;
+    gap:5rem;
+  }
+
+  .mobile__menu{
+    display: none;
+  }
+
+  .logo-img{
+    width:12rem;
+  }
+
+  .navbar__items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    gap:7.5rem;
+    padding-right:4rem;
+    color: #fff;
+  }
+
+  .desktop__item > a{
+   font-family: 'Droid Arabic Kufi', serif;
+    font-weight:300;
+    font-size:17px;
+  }
+
+  .desktop__item > a:hover{
+    color:#12b5f6;
+  }
+
+  .Description{
+   display: flex;
+   align-items: center;
+   border-radius: 0;
+   background-color: #146c70;
+   padding-top:5rem;
+   border-bottom:5px solid #12b5f6;
+  }
+
+  .description__container{
+  align-items: center;
+   width:60%;
+   height:100%;
+   padding-left:80px;
+   padding-top:10px;
+   gap:30px;
+  }
+
+  .study-banner{
+    width:50%;
+    border-radius: 35px;
+    border:6px solid #12b5f6;
+  }
+
+  .heading-1{
+    width:80%;
+    line-height:3rem;
+    font-size:35px;
+  }
+
+  .description-para{
+    font-size:18px;
+    line-height:35px;
+  }
+
+  .contact-btn {
+    padding: 15px 100px;
+  }
+
+  .contact-btn:hover{
+    opacity: 0.7;
+  }
+
+  .contact-btn:active{
+    opacity: 1;
+  }
+
+  .stat-container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap:20%;
+    width: 100%;
+    
+  }
+
+  .stat-container2{
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    gap: 10rem;
+  }
+
+  .uchimsa-team {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:3rem;
+    width:70%;
+  }
+
+  .uchimsa-team > h3{
+    font-size:30px;
+    border-bottom: 4px solid #12b5f6;
+    border-radius:25px;
+  }
+
+  .uchimsa-team > p{
+    font-size:20px;
+    width:80%;
+    text-align: center;
+    line-height:35px;
+  }
+
+  .register-btn{
+    font-size:16px;
+  }
+
+  .register-btn:hover{
+    opacity:0.7;
+  }
+
+  .register-btn{
+    opacity: 1;
+  }
+
+  .banner-3{
+    width:45%;
+    padding-right:80px;
+  }
+
+  .banner3img{
+    width:100%;
+  }
+
+  .stat{
+    font-size:24px;
+  }
+
+  #steps-container{
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+    gap:4rem;
+    width:80%;
+    padding-bottom:20px;
+   
+  }
+
+  .step{
+    align-items:center;
+    justify-content:center;
+  }
+
+  .steps-heading{
+    text-align: center;
+    font-size:35px;
+    margin-top:90px;
+  }
+
+  .step .service-heading {
+   line-height:100px;
+    padding-top: 20px;
+  }
+
+  .arrow-img{
+    display:none;
+  }
+
+  .step-img{
+    display: flex;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .step-image img{
+    width:90%;
+    border-radius: 20px;
+  }
+
+  .step-image > h3 {
+    text-align: center;
+    width:80%;
+    font-size: 45px;
+
+  }
+
+  .title-bold {
+    font-size: 45px;
+    z-index: 10;
+    text-align: center;
+  }
+
+  .testi-heading{
+    font-size: 45px;;
+  }
+
+  .testi-container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:2rem;
+  }
+
+  .videos{
+    width:50%;
+  }
+
+  .written{
+    width:50%;
+  }
+
+  .testi-text1{
+    margin-bottom:2rem;
+  }
+
+  .testi-text2{
+    margin-bottom:2rem;
+  }
+
+  video{
+    width:80%;
+    margin-bottom:40px;
+  }
+
+  .about-container{
+    padding:40px 60px;;
+  }
+
+  .About-heading{
+    font-size: 40px;
+    margin-bottom:40px;
+  }
+
+  .about-text{
+    font-size:25px;
+    line-height:60px;
+    text-align:center;
+  }
+
+  .map{
+    width:80%;
+  }
+
+  iframe{
+    border-radius:65px;
+  }
+
+  .logo2 > img{
+   width:15rem;
+  }
+
+  .contacts-link{
+    font-size:20px;
+  }
+
+  .contacts-link:hover{
+    color:#12b5f6;
+  }
+
+  .copyrights p{
+    font-size:23px;
+    line-height: 30px;
+  }
+
+  .wechat-img{
+    margin-left: 50px;;
+  }
+
+  .english{
+    width:13%;
+    margin: 15px;
+  }
+
+    
+  .arabic{
+    width:14%;
+    margin: 15px;
+  }
+
+}
