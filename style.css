@@ -34,7 +34,7 @@
   background-color: #58c7cc;
 }
 
-.navbar__items{
+.navbar__items {
   display: none;
 }
 
@@ -52,16 +52,10 @@
   color: #fff;
 }
 
-.english{
-  width:25%;
-}
-
-.arabic{
-  width:25%;
-}
-
-.languages{
-padding-left: 120px;
+.languages {
+  display: flex;
+  gap: 15px;
+  padding-left: 40px;
 }
 
 .Description {
@@ -128,17 +122,17 @@ padding-left: 120px;
   border-top-right-radius: 35px;
 }
 
-.stat-container{
-  display:flex;
+.stat-container {
+  display: flex;
   flex-direction: column;
   align-items: center;
-  gap:7rem;
+  gap: 7rem;
 }
 
-.stat-container2{
-  display:flex;
+.stat-container2 {
+  display: flex;
   flex-direction: column;
-  gap:7rem;
+  gap: 7rem;
 }
 
 .stat {
@@ -155,10 +149,10 @@ padding-left: 120px;
   font-size: 30px;
 }
 
-.banner-3{
+.banner-3 {
   align-items: center;
- align-self: center;
-  padding-right:auto;
+  align-self: center;
+  padding-right: auto;
 }
 
 .uchimsa-team {
@@ -174,7 +168,7 @@ padding-left: 120px;
   color: #27292e;
   font-family: 'Ubuntu', sans-serif;
   border-bottom: 4px solid #12b5f6;
-  border-radius:25px;
+  border-radius: 25px;
 }
 
 .uchimsa-team p {
@@ -205,11 +199,11 @@ padding-left: 120px;
   gap: 100px;
 }
 
-#steps-container{
-  display:flex;
+#steps-container {
+  display: flex;
   flex-direction: column;
   align-items: center;
-  gap:5px;
+  gap: 5px;
 }
 
 .steps-heading {
@@ -229,7 +223,7 @@ padding-left: 120px;
   justify-content: center;
   width: 90%;
   gap: 22px;
-  margin-bottom:10rem;
+  margin-bottom: 10rem;
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -261,14 +255,14 @@ padding-left: 120px;
   background-color: #e6f6f7;
 }
 
-.videos{
-  display:flex;
+.videos {
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.written{
-  display:flex;
+.written {
+  display: flex;
   flex-direction: column;
   align-items: center;
 }
@@ -293,7 +287,7 @@ video {
   position: absolute;
   text-align: center;
   line-height: 30px;
-  color:#fff;
+  color: #fff;
   font-family: 'Ubuntu', sans-serif;
   font-weight: 300;
   padding: 20px;
@@ -320,7 +314,7 @@ video {
 
 .title-bold {
   font-weight: bold;
-  font-size:22px;
+  font-size: 22px;
   color: #58c7cc;
 }
 
@@ -414,256 +408,253 @@ iframe {
   font-weight: bold;
 }
 
-.contact{
+.contact {
   background-color: #e6f6f7;
-  padding-top:80px;
+  padding-top: 80px;
 }
 
-.contact-container{
-  display:flex;
+.contact-container {
+  display: flex;
   flex-direction: column;
   align-items: center;
-  border-top:3px solid #12b5f6;
+  border-top: 3px solid #12b5f6;
   background-color: #146c70;
   padding: 20px 15px;
   width: 100%;
 }
 
-hr{
-  width:95%;
+hr {
+  width: 95%;
   color: #e27f23;
   margin-bottom: 20px;
   margin-top: 20px;
 }
 
-.first-row{
-  display:flex;
+.first-row {
+  display: flex;
   align-items: center;
 }
 
-.logo2{
-  margin-right:70px;
+.logo2 {
+  margin-right: 70px;
 }
 
-.contacts-link{
+.contacts-link {
   text-decoration: none;
   color: #fff;
   font-family: 'Nunito Sans', sans-serif;
-  font-size:10px;
-  font-weight:bold;
+  font-size: 10px;
+  font-weight: bold;
   padding-right: 15px;
 }
 
-.copyrights > p{
+.copyrights > p {
   font-family: 'Ubuntu', sans-serif;
   color: #000;
-  font-size:15px;
-  font-weight:400;
+  font-size: 15px;
+  font-weight: 400;
 }
 
-.step-image > img{
-  width:100%;
+.step-image > img {
+  width: 100%;
   filter: blur(4px);
 }
 
-.russia{
+.russia {
   font-weight: bold;
-  color:#12b5f6;
+  color: #12b5f6;
 }
 
-.wechat-img > img{
-width: 10%;
+.wechat-img > img {
+  width: 10%;
 }
 
 @media screen and (min-width: 769px) {
-   .menu__btn{
-    display:none;
-  }
-
-  .navbar__container{
-    padding: 3.5rem  80px;
-    gap:5rem;
-  }
-
-  .mobile__menu{
+  .menu__btn {
     display: none;
   }
 
-  .logo-img{
-    width:12rem;
+  .navbar__container {
+    padding: 3.5rem  80px;
+    gap: 5rem;
   }
 
-  .navbar__items{
+  .mobile__menu {
+    display: none;
+  }
+
+  .logo-img {
+    width: 12rem;
+  }
+
+  .navbar__items {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content:space-around;
-    gap:7.5rem;
-    padding-right:2rem;
+    justify-content: space-around;
+    gap: 7.5rem;
+    padding-right: 2rem;
     color: #fff;
   }
 
-  .desktop__item > a{
+  .desktop__item > a {
     font-family: 'Nunito Sans', sans-serif;
-    font-weight:300;
-    font-size:17px;
+    font-weight: 300;
+    font-size: 17px;
   }
 
-  .desktop__item > a:hover{
-    color:#12b5f6;
+  .desktop__item > a:hover {
+    color: #12b5f6;
   }
 
-  .Description{
-   display: flex;
-   align-items: center;
-   border-radius: 0;
-   background-color: #146c70;
-   padding-top:5rem;
-   border-bottom:5px solid #12b5f6;
+  .Description {
+    display: flex;
+    align-items: center;
+    border-radius: 0;
+    background-color: #146c70;
+    padding-top: 5rem;
+    border-bottom: 5px solid #12b5f6;
   }
 
-  .description__container{
-  align-items: center;
-   width:60%;
-   height:100%;
-   padding-left:80px;
-   padding-top:10px;
-   gap:30px;
+  .description__container {
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    padding-left: 80px;
+    padding-top: 10px;
+    gap: 30px;
   }
 
-  .study-banner{
-    width:50%;
+  .study-banner {
+    width: 50%;
     border-radius: 35px;
-    border:6px solid #12b5f6;
+    border: 6px solid #12b5f6;
   }
 
-  .heading-1{
-    width:80%;
-    line-height:3rem;
-    font-size:35px;
+  .heading-1 {
+    width: 80%;
+    line-height: 3rem;
+    font-size: 35px;
   }
 
-  .description-para{
-    font-size:18px;
-    line-height:35px;
+  .description-para {
+    font-size: 18px;
+    line-height: 35px;
   }
 
   .contact-btn {
     padding: 15px 100px;
   }
 
-  .contact-btn:hover{
+  .contact-btn:hover {
     opacity: 0.7;
   }
 
-  .contact-btn:active{
+  .contact-btn:active {
     opacity: 1;
   }
 
-  .stat-container{
-    display:flex;
+  .stat-container {
+    display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap:20%;
+    gap: 20%;
     width: 100%;
-    
   }
 
-  .stat-container2{
+  .stat-container2 {
     flex-direction: row;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-around;
     gap: 10rem;
   }
 
   .uchimsa-team {
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
-    gap:3rem;
-    width:70%;
+    gap: 3rem;
+    width: 70%;
   }
 
-  .uchimsa-team > h3{
-    font-size:30px;
+  .uchimsa-team > h3 {
+    font-size: 30px;
     border-bottom: 4px solid #12b5f6;
-    border-radius:25px;
+    border-radius: 25px;
   }
 
-  .uchimsa-team > p{
-    font-size:20px;
-    width:80%;
+  .uchimsa-team > p {
+    font-size: 20px;
+    width: 80%;
     text-align: center;
-    line-height:35px;
+    line-height: 35px;
   }
 
-  .register-btn{
-    font-size:16px;
+  .register-btn {
+    font-size: 16px;
   }
 
-  .register-btn:hover{
-    opacity:0.7;
+  .register-btn:hover {
+    opacity: 0.7;
   }
 
-  .register-btn{
+  .register-btn {
     opacity: 1;
   }
 
-  .banner-3{
-    width:45%;
-    padding-right:80px;
+  .banner-3 {
+    width: 45%;
+    padding-right: 80px;
   }
 
-  .banner3img{
-    width:100%;
+  .banner3img {
+    width: 100%;
   }
 
-  .stat{
-    font-size:24px;
+  .stat {
+    font-size: 24px;
   }
 
-  #steps-container{
-    display:flex;
+  #steps-container {
+    display: flex;
     flex-direction: row;
-    align-items:center;
-    justify-content:center;
-    gap:4rem;
-    width:80%;
-    padding-bottom:20px;
-   
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    width: 80%;
+    padding-bottom: 20px;
   }
 
-  .step{
-    align-items:center;
-    justify-content:center;
+  .step {
+    align-items: center;
+    justify-content: center;
   }
 
-  .steps-heading{
+  .steps-heading {
     text-align: center;
-    font-size:35px;
-    margin-top:90px;
+    font-size: 35px;
+    margin-top: 90px;
   }
 
-  .arrow-img{
-    display:none;
+  .arrow-img {
+    display: none;
   }
 
-  .step-img{
+  .step-img {
     text-align: center;
     margin-bottom: 25px;
   }
 
-  .step-image img{
-    width:90%;
+  .step-image img {
+    width: 90%;
     border-radius: 20px;
   }
 
   .step-image > h3 {
     text-align: center;
-    width:80%;
+    width: 80%;
     font-size: 45px;
-
   }
 
   .title-bold {
@@ -672,91 +663,79 @@ width: 10%;
     text-align: center;
   }
 
-  .testi-heading{
-    font-size: 45px;;
+  .testi-heading {
+    font-size: 45px;
   }
 
-  .testi-container{
-    display:flex;
+  .testi-container {
+    display: flex;
     flex-direction: row;
     align-items: center;
-    gap:2rem;
+    gap: 2rem;
   }
 
-  .videos{
-    width:50%;
+  .videos {
+    width: 50%;
   }
 
-  .written{
-    width:50%;
+  .written {
+    width: 50%;
   }
 
-  .testi-text1{
-    margin-bottom:2rem;
+  .testi-text1 {
+    margin-bottom: 2rem;
   }
 
-  .testi-text2{
-    margin-bottom:2rem;
+  .testi-text2 {
+    margin-bottom: 2rem;
   }
 
-  video{
-    width:80%;
-    margin-bottom:40px;
+  video {
+    width: 80%;
+    margin-bottom: 40px;
   }
 
-  .about-container{
-    padding:40px 60px;;
+  .about-container {
+    padding: 40px 60px;
   }
 
-  .About-heading{
+  .About-heading {
     font-size: 40px;
-    margin-bottom:40px;
+    margin-bottom: 40px;
   }
 
-  .about-text{
-    font-size:25px;
-    line-height:60px;
-    text-align:center;
+  .about-text {
+    font-size: 25px;
+    line-height: 60px;
+    text-align: center;
   }
 
-  .map{
-    width:80%;
+  .map {
+    width: 80%;
   }
 
-  iframe{
-    border-radius:65px;
+  iframe {
+    border-radius: 65px;
   }
 
-  .logo2 > img{
-   width:15rem;
+  .logo2 > img {
+    width: 15rem;
   }
 
-  .contacts-link{
-    font-size:20px;
+  .contacts-link {
+    font-size: 20px;
   }
 
-  .contacts-link:hover{
-    color:#12b5f6;
+  .contacts-link:hover {
+    color: #12b5f6;
   }
 
-  .copyrights p{
-    font-size:23px;
+  .copyrights p {
+    font-size: 23px;
     line-height: 30px;
   }
 
-  .wechat-img{
-    margin-left: 50px;;
+  .wechat-img {
+    margin-left: 50px;
   }
-
-  .english{
-    width:13%;
-    margin: 15px;
-  }
-
-    
-  .arabic{
-    width:14%;
-    margin: 15px;
-  }
-
 }
