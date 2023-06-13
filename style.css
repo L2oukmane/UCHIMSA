@@ -256,7 +256,8 @@
   justify-content: center;
   padding-top: 170px;
   padding-bottom: 50px;
-  background-color: #e6f6f7;
+  background: rgb(140,146,172);
+  background: linear-gradient(163deg, rgba(140,146,172,1) 18%, rgba(0,0,128,1) 60%, rgba(255,127,80,1) 87%, rgba(255,255,255,0) 100%, rgba(250,250,250,0.011718066132703098) 100%);
 }
 
 .videos {
@@ -272,7 +273,7 @@
 }
 
 .testi-heading {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Caveat', cursive;
   color: #27292e;
   font-size: 22px;
   font-weight: 600;
@@ -298,7 +299,7 @@ video {
 }
 
 .testi-text1 {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Caveat', cursive;
   color: #27292e;
   font-size: 18px;
   font-style: italic;
@@ -307,7 +308,7 @@ video {
 }
 
 .testi-text2 {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Caveat', cursive;
   color: #27292e;
   font-size: 18px;
   font-weight: 600;
@@ -394,7 +395,7 @@ iframe {
 }
 
 .About-heading {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Caveat', cursive;
   font-size: 23px;
   color: #fff;
   margin-bottom: 20px;
@@ -456,7 +457,9 @@ hr {
 
 .copyrights > p {
   font-family: 'Ubuntu', sans-serif;
-  color: #000;
+  background: -webkit-linear-gradient(163deg, rgba(140,146,172,1) 80%, rgba(0,0,128,1) 80%, rgba(255,127,80,1) 97%, rgba(255,255,255,0) 100%, rgba(250,250,250,0.011718066132703098) 100%);;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 15px;
   font-weight: 400;
 }
