@@ -565,6 +565,10 @@ hr {
   animation-duration: 1.5s;
 }
 
+.china-flag{
+  width: 2rem;
+}
+
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
