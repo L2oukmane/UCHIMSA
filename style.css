@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
 * {
   padding: 0;
   margin: 0;
@@ -17,10 +17,9 @@
   height: 80px;
   width: 100%;
   background: rgb(140,146,172);
-  background: linear-gradient(163deg, rgba(140,146,172,1) 18%, rgba(0,0,128,1) 60%, rgba(255,127,80,1) 87%, rgba(255,255,255,0) 100%, rgba(250,250,250,0.011718066132703098) 100%); 
+  background: linear-gradient(163deg, rgba(140,146,172,1) 18%, rgba(0,0,128,1) 60%, rgba(255,127,80,1) 87%, rgba(255,255,255,0) 100%, rgba(250,250,250,0.011718066132703098) 100%);
   padding: 20px 15px;
   border: none;
-  
 }
 
 .mobile__menu {
@@ -34,7 +33,8 @@
   width: 100%;
   height: 100%;
   gap: 85px;
-  background-color: #58c7cc;
+  background: rgb(140,146,172);
+  background: linear-gradient(163deg, rgba(140,146,172,1) 18%, rgba(0,0,128,1) 60%, rgba(255,127,80,1) 99%, rgba(255,255,255,0) 100%, rgba(250,250,250,0.011718066132703098) 100%);
 }
 
 .navbar__items {
@@ -49,20 +49,21 @@
 
 .navbar__item a {
   font-family: 'Ubuntu', sans-serif;
-  font-weight: bold;
-  font-size: 18px;
   text-decoration: none;
-  color:#FF7F50;
+  color:#fff;
+
 }
 
 .Description {
   margin: 0;
   padding: 0;
-  background:url('./imgs/disBackground.jpg');
+  background:url('./imgs/spb555.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 45px;
   border: none;
+  border-top: 4px solid #A2D39C;
+  border-bottom: 4px solid #A2D39C;
 }
 
 .description__container {
@@ -90,7 +91,7 @@
 }
 
 .contact-btn {
-  background-color: #e27f23;
+  background-color:  #A2D39C;
   padding: 15px 100px;
   color: #ffff;
   border: none;
@@ -112,7 +113,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #e6f6f7;
+  background: rgb(140,146,172);
+  background: linear-gradient(163deg, rgba(140,146,172,1) 18%, rgba(0,0,128,1) 60%, rgba(255,127,80,1) 87%, rgba(255,255,255,0) 100%, rgba(250,250,250,0.011718066132703098) 100%);
   padding-top: 90px;
   padding-bottom: 40px;
   height: 100%;
@@ -141,7 +143,7 @@
   justify-content: center;
   gap: 20px;
   font-family: 'Ubuntu', sans-serif;
-  color: #146c70;
+  color: #A2D39C;
 }
 
 .stat-number {
@@ -164,9 +166,9 @@
 
 .uchimsa-team h3 {
   font-size: 25px;
-  color: #27292e;
+  color: #fff;
   font-family: 'Ubuntu', sans-serif;
-  border-bottom: 4px solid #12b5f6;
+  border-bottom: 4px solid #A2D39C;
   border-radius: 25px;
 }
 
@@ -175,12 +177,12 @@
   text-align: center;
   font-size: 15px;
   width: 80%;
-  color: #585c65;
+  color: #fff;
 }
 
 .register-btn {
   padding: 15px 77px;
-  background-color: #e27f23;
+  background-color: #A2D39C;
   border: none;
   color: #fff;
   border-radius: 20px;
@@ -194,8 +196,8 @@
   padding-top: 10px;
   padding-left: 20px;
   padding-bottom: 10px;
-  background-color: #e6f6f7;
-  gap: 100px;
+  background-color: #A2D39C;
+  gap: 50px;
 }
 
 #steps-container {
@@ -211,8 +213,10 @@
   font-size: 25px;
   text-align: left;
   padding-left: 20px;
+  padding-top:40px;
   align-items: center;
   width: 80%;
+  color: #fff;
 }
 
 .step {
@@ -228,19 +232,20 @@
 
 .step > a {
   text-decoration: none;
+  font-family: 'Caveat', cursive;
   text-align: center;
   align-items: center;
-  color: #585c65;
-  font-size: 16px;
+  color: #f07753;
+  font-size: 20px;
 }
 
 .material-icons {
-  color: #58c7cc;
+  color: #f07753;
   font-size: 8rem;
 }
 
 .step-img {
-  border: 2px solid #58c7cc;
+  border: 2px solid #f07753;
   border-radius: 10px;
 }
 
@@ -283,11 +288,10 @@ video {
 }
 
 .step .service-heading {
-  position: absolute;
   text-align: center;
   line-height: 30px;
   color: #fff;
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Caveat', cursive;
   font-weight: 300;
   padding: 20px;
   border-radius: 36px;
@@ -314,7 +318,9 @@ video {
 .title-bold {
   font-weight: bold;
   font-size: 22px;
-  color: #58c7cc;
+  background: -webkit-linear-gradient(163deg, rgba(140,146,172,1) 8%, rgba(0,0,128,1) 20%, rgba(255,127,80,1) 97%, rgba(255,255,255,0) 100%, rgba(250,250,250,0.011718066132703098) 100%);;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .written-testi {
@@ -355,9 +361,10 @@ video {
 }
 
 .step p {
-  color: #58c7cc;
+  color:rgba(0,0,128,1);
   font-weight: bold;
   font-size: 20px;
+  font-family: 'Caveat', cursive;
 }
 
 .about {
@@ -456,16 +463,108 @@ hr {
 
 .step-image > img {
   width: 100%;
-  filter: blur(4px);
+  border-radius: 20px;
 }
 
 .russia {
   font-weight: bold;
-  color: #12b5f6;
+  color: #A2D39C;
 }
 
+.russia2{
+  background: -webkit-linear-gradient(163deg, rgba(140,146,172,1) 18%, rgba(0,0,128,1) 60%, rgba(255,127,80,1) 87%, rgba(255,255,255,0) 100%, rgba(250,250,250,0.011718066132703098) 100%);;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .wechat-img > img {
   width: 10%;
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
 
 @media screen and (min-width: 769px) {
@@ -499,7 +598,7 @@ hr {
   .desktop__item > a {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 300;
-    font-size: 17px;
+    font-size: 14px;
   }
 
   .desktop__item > a:hover {
@@ -510,9 +609,8 @@ hr {
     display: flex;
     align-items: center;
     border-radius: 0;
-    background-color: #146c70;
+    background-color:  #A5C8E1;
     padding-top: 5rem;
-    border-bottom: 5px solid #12b5f6;
   }
 
   .description__container {
@@ -527,7 +625,7 @@ hr {
   .study-banner {
     width: 50%;
     border-radius: 35px;
-    border: 6px solid #12b5f6;
+    border: 6px solid  #A2D39C;
   }
 
   .heading-1 {
@@ -547,6 +645,7 @@ hr {
 
   .contact-btn:hover {
     opacity: 0.7;
+    cursor: pointer;
   }
 
   .contact-btn:active {
@@ -579,7 +678,7 @@ hr {
 
   .uchimsa-team > h3 {
     font-size: 30px;
-    border-bottom: 4px solid #12b5f6;
+    border-bottom: 4px solid #A2D39C;;
     border-radius: 25px;
   }
 
@@ -646,7 +745,7 @@ hr {
   }
 
   .step-image img {
-    width: 90%;
+    width: 70%;
     border-radius: 20px;
   }
 
